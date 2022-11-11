@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url(https://media.tenor.com/NLTl2XEV2-cAAAAC/snow-mountain.gif)
+    center center / cover no-repeat fixed;
+  font-family: "Poppins", sans-serif;
+}
+
+.main {
+  backdrop-filter: blur(1rem) saturate(150%);
+  width: 100rem;
+  height: 56.25rem;
+  border-radius: 1.563rem;
+}
+
+.myPhoto {
+  width: 15.625rem;
+  height: 15.625rem;
+  border-radius: 50%;
+}
+
+.firstSec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.description {
+  width: 31.25rem;
+  height: 20rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  color: white;
+  font-weight: 600;
+}
+
+.description p {
+  color: white;
+  font-weight: 600;
+}
+
+.skills {
+  width: 43.75rem;
+  height: 8.25rem;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.skill-item {
+  color: rgb(241, 241, 241);
+  display: flex;
+  line-height: 1;
+  font-size: 0.9rem;
+  column-gap: 0.3rem;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-top-color: rgb(255, 255, 255);
+  border-left-color: rgb(255, 255, 255);
+  border-bottom-color: rgb(187, 187, 187);
+  border-right-color: rgb(187, 187, 187);
+  cursor: pointer;
+  font-family: Poppins, sans-serif;
+  font-weight: 200;
+  border-radius: 1rem;
+  padding: 0.4rem 0.7rem;
+  transition: all 0.15s ease 0s;
+  height: 1.875rem;
+  margin-right: 0.625rem;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skill-item p {
+  font-size: 0.75rem;
+  text-align: center;
+}
+
+@media screen and (max-width: 320px) {
+  .skills {
+    margin-left: 6.188rem;
+    justify-content: center;
+  }
+
+  .description {
+    padding-left: 0.906rem;
+  }
+}
+
+.skillsSec h2 {
+  text-align: center;
+  color: white;
+  font-weight: 600;
+  padding-bottom: 1.25rem;
+}
+
+.myText {
+  text-align: center;
+  padding: 3.75rem;
+  color: white;
+  font-weight: 500;
+}
+
+.myText p {
+  font-size: 1.25rem;
+}
