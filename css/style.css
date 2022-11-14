@@ -105,7 +105,6 @@ h1 {
 
 @media screen and (max-width: 320px) {
   .skills {
-    margin-left: 6.188rem;
     justify-content: center;
   }
 
@@ -338,5 +337,12 @@ h1 {
     place-content: center;
     align-items: center;
     
+  }
+}
+
+
+@media screen and (max-width:425px) {
+  .firstSec{
+  justify-content: space-between;
   }
 }
